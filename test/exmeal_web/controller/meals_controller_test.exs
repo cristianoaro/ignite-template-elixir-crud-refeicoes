@@ -105,7 +105,7 @@ defmodule Exmeal.MealsControllerTest do
   end
 
   describe "get/2" do
-    test "when id exist, returm the meal", %{conn: conn} do
+    test "when id exist, return the meal", %{conn: conn} do
       params = %{description: "Banana", date: "2001-05-02", calories: "20"}
 
       {:ok, meal} = Exmeal.create_meal(params)
