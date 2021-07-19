@@ -53,7 +53,8 @@ defmodule Exmeal.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
-      {:ex_machina, "~> 2.7.0"}
+      {:ex_machina, "~> 2.7.0"},
+      {:json_response, git: "https://github.com/joaopealves/json_response"}
     ]
   end
 
